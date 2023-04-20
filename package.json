@@ -8,10 +8,18 @@
     "start": "node index.js",
     "deploy": "heroku create",
     "updatedeploy": "git add . && git commit -m 'updated' && git push heroku master"
+  },"repository": {
+    "type": "git",
+    "url": "git+https://github.com/uttamkrshaw/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uttamkrshaw/server/issues"
+  },
+  "homepage": "https://github.com/uttamkrshaw/server#readme",
+  
   "dependencies": {
     "json-server": "^0.17.3"
   }
