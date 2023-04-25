@@ -1,123 +1,106 @@
 {
-  "dogs": [
+  "cars": [
     {
       "id": 1,
-      "name": "Cherry",
-      "age": 5,
-      "place": "Visakhapatnam",
-      "gender": "Male"
+      "brand": "Tata",
+      "year": 2019,
+      "type": "Manual",
+      "kms": 10000,
+      "Description": "Tata Altroz with all original documents",
+      "Price": 500000,
+      "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/41645/tata-nexon-right-front-three-quarter3.jpeg?q=75"
     },
     {
       "id": 2,
-      "name": "Tommy",
-      "age": 3,
-      "place": "Banglore",
-      "gender": "Female"
+      "brand": "Tata",
+      "type": "AMT",
+      "year": 2017,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/41645/tata-nexon-right-front-three-quarter3.jpeg?q=75"
     },
     {
       "id": 3,
-      "name": "Riley",
-      "age": 5,
-      "place": "Dhanbad",
-      "gender": "Male"
+      "brand": "Toyata",
+      "type": "Manual",
+      "year": 2021,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtWrMZy-d4pA7FEND1aeYstm0kTFbuVmz4A&usqp=CAU"
     },
     {
       "id": 4,
-      "name": "Scooby",
-      "age": 5,
-      "place": "Delhi",
-      "gender": "Male"
+      "brand": "Mercedes",
+      "type": "Manual",
+      "year": 2023,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT86hioyAbSj0oTlTETOH_CD2Y5HJaenE0iNQ&usqp=CAU"
     },
     {
       "id": 5,
-      "name": "Jason",
-      "age": 5,
-      "place": "UP",
-      "gender": "Male"
+      "brand": "Ford",
+      "type": "Manual",
+      "year": 2017,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QapRjGJTtWnxdKME3zR88PisbTJZbMdyLQ&usqp=CAU"
     },
     {
       "id": 6,
-      "name": "Pakhi",
-      "age": 6,
-      "place": "Maithon",
-      "gender": "Female"
+      "brand": "Nissan",
+      "type": "Manual",
+      "year": 2019,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSegZT5PNAqunMVzP_YwP8TAM3OABw7IBHdw&usqp=CAU"
     },
     {
       "id": 7,
-      "name": "Supu",
-      "age": 3,
-      "place": "Ranchi",
-      "gender": "Female"
+      "brand": "Mahindra",
+      "type": "AMT",
+      "year": 2017,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVPWu2GsaZcAdHXX2QNtnzvPbHmT9hhzADgA&usqp=CAU"
     },
     {
-      "id": 8,
-      "name": "Damian",
-      "age": 8,
-      "place": "Banglore",
-      "gender": "Male"
+      "brand": "Nissan",
+      "type": "Manual",
+      "year": 2021,
+      "kms": 2021,
+      "Description": "Limited Edition Nissan Skyline R34",
+      "Price": 9000000,
+      "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/41645/tata-nexon-right-front-three-quarter3.jpeg?q=75",
+      "id": 10
+    }
+  ],
+  "wishlisted_cars": [
+    {
+      "id": 1,
+      "brand": "Tata",
+      "year": 2019,
+      "type": "Manual",
+      "kms": 10000,
+      "Description": "Tata Altroz with all original documents",
+      "Price": 500000,
+      "image": "https://imgd.aeplcdn.com/227x128/n/cw/ec/41645/tata-nexon-right-front-three-quarter3.jpeg?q=75"
     },
     {
-      "id": 9,
-      "name": "Bull",
-      "age": 10,
-      "place": "Patna",
-      "gender": "Male"
-    },
-    {
-      "id": 10,
-      "name": "Rimmy",
-      "age": 5,
-      "place": "Jharkhand",
-      "gender": "Female"
-    },
-    {
-      "name": "BullDog",
-      "age": 5,
-      "place": "Chirkunda",
-      "gender": "Male",
-      "id": 11
-    },
-    {
-      "name": "German Shepherd",
-      "age": 8,
-      "place": "Dhanbad",
-      "gender": "Male",
-      "id": 12
-    },
-    {
-      "name": "Siberian Husky",
-      "age": 10,
-      "place": "Chirkunda",
-      "gender": "Male",
-      "id": 13
-    },
-    {
-      "name": "Poodle",
-      "age": 10,
-      "place": "Delhi",
-      "gender": "Female",
-      "id": 14
-    },
-    {
-      "name": "Afghan Hound",
-      "age": 15,
-      "place": "Banglore",
-      "gender": "Female",
-      "id": 15
-    },
-    {
-      "name": "Rottweiler",
-      "age": 5,
-      "place": "Banglore",
-      "gender": "Male",
-      "id": 16
-    },
-    {
-      "name": "Airedale Terrier",
-      "age": 15,
-      "place": "Delhi",
-      "gender": "Male",
-      "id": 17
+      "id": 3,
+      "brand": "Toyata",
+      "type": "Manual",
+      "year": 2021,
+      "kms": 8000,
+      "Description": "Tata Nexon with all original documents",
+      "Price": 800000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtWrMZy-d4pA7FEND1aeYstm0kTFbuVmz4A&usqp=CAU"
     }
   ]
 }
